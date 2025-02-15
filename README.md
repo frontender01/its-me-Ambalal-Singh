@@ -9,7 +9,7 @@
 # 🏆 My Projects & Certifications
 
 ## 🚀 Projects
-1. **[  gagsgs](Project_Link_1)** - Short description about the project.
+1. **[School Managment App](Project_Link_1)** - A App which helps Teachers, Parents and School Managent and also Students.
 2. **[Project Name 2](Project_Link_2)** - Short description about the project.
 3. **[Project Name 3](Project_Link_3)** - Short description about the project.
 

@@ -20,6 +20,16 @@
 
 ---
 
+## 🎨 Figma Prototypes  
+Here are some of my UI/UX design prototypes:  
+- 🔗 **[Project Name 1](https://www.figma.com/file/your_project_link1)**  
+- 🔗 **[Project Name 2](https://www.figma.com/file/your_project_link2)**  
+- 🔗 **[Project Name 3](https://www.figma.com/file/your_project_link3)**  
+
+*More coming soon... 🚀*  
+
+---
+
 ## 🔥 My Tech Stack  
 **Languages & Tools I Use:**  
 ![HTML](https://img.shields.io/badge/Code-HTML5-orange?style=for-the-badge&logo=html5)  

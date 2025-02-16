@@ -19,6 +19,25 @@
 3. **[Certificate Name 3](Certificate_Link_3)** - Issued by **Institution Name**.
 
 ---
+
+## 🔥 My Tech Stack  
+**Languages & Tools I Use:**  
+![HTML](https://img.shields.io/badge/Code-HTML5-orange?style=for-the-badge&logo=html5)  
+![CSS](https://img.shields.io/badge/Style-CSS3-blue?style=for-the-badge&logo=css3)  
+![JavaScript](https://img.shields.io/badge/Scripting-JavaScript-yellow?style=for-the-badge&logo=javascript)  
+![Kotlin](https://img.shields.io/badge/Learning-Kotlin-purple?style=for-the-badge&logo=kotlin)  
+![React](https://img.shields.io/badge/Framework-React-blue?style=for-the-badge&logo=react)  
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green?style=for-the-badge&logo=node.js)  
+
+---
+
+## 📈 GitHub Stats  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=frontender01&show_icons=true&theme=tokyonight)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=frontender01&layout=compact&theme=tokyonight)  
+
+---
+
+
 Feel free to check out my work and certifications! 😊
 
 <!---

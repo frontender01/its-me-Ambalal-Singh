@@ -6,11 +6,11 @@
 - 😄 Pronouns: ...Male...
 - ⚡ Fun fact: ...Tea Lover can drink Tea in any time.
 
-# 🏆 My Projects & Certifications
+# 🏆 My Certifications & Projects 
 
-## 🚀 Projects
-1. **[School Managment App](Project_Link_1)** - A App which helps Teachers, Parents and School Managent and also Students.
-2. **[Project Name 2](Project_Link_2)** - Short description about the project.
+## 🚀 Certificates
+1. **[Getting Started with Microsoft Excel](https://coursera.org/share/aaa9cda1c57ac3cc746bf286456bfd68)** - A certificate from Coursera.
+2. **[Build a free website with WordPress](https://coursera.org/share/df429f386d10a5e39cc3081aeb1f473f)** - Short description about the project.
 3. **[Project Name 3](Project_Link_3)** - Short description about the project.
 
 

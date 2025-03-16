@@ -10,8 +10,8 @@
 
 ## 🚀 Certificates
 1. **[Getting Started with Microsoft Excel](https://coursera.org/share/aaa9cda1c57ac3cc746bf286456bfd68)** - A certificate from Coursera.
-2. **[Build a free website with WordPress](https://coursera.org/share/df429f386d10a5e39cc3081aeb1f473f)** - Short description about the project.
-3. **[Project Name 3](Project_Link_3)** - Short description about the project.
+2. **[Build a free website with WordPress](https://coursera.org/share/df429f386d10a5e39cc3081aeb1f473f)** - A certificate from Coursera.
+3. **[Business Analysis & Process Management](https://coursera.org/share/5f61bb9cdedb16b7066ae641458b92eb)** - A certificate from Coursera.
 
 
 ---

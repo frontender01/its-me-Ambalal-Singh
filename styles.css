@@ -1,56 +1,17 @@
-.card {
-    background: rgba(255, 255, 255, 0.8);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px;
-    transition: transform 0.2s;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1d1d1d, #3d3d3d);
+    animation: fadeIn 1s ease-in-out;
 }
 
-.card:hover {
-    transform: scale(1.05);
-}
-
-.glass {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    padding: 20px;
-}
-
-.school-theme {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #f9fbe7;
-    color: #3e2723;
-}
-
-.report-card {
-    border: 2px solid #3e2723;
-    border-radius: 10px;
-    padding: 15px;
-    margin-bottom: 20px;
-}
-
-.report-card h2 {
-    text-align: center;
-    color: #3e2723;
-}
-
-.report-card table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.report-card th, .report-card td {
-    border: 1px solid #3e2723;
-    padding: 8px;
-    text-align: center;
-}
-
-@media (max-width: 600px) {
-    .card {
-        flex-direction: column;
-    }
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    animation: slideIn 0.5s ease forwards;
 }
 
 @keyframes fadeIn {
@@ -58,24 +19,23 @@
     to { opacity: 1; }
 }
 
-.animated {
-    animation: fadeIn 1s ease-in;
+@keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
 }
 
-.interactive-button {
-    background-color: #3f51b5;
-    border: none;
-    color: white;
+.button {
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    border: none;
+    background: #007bff;
+    color: white;
     border-radius: 5px;
+    cursor: pointer;
+    animation: bounce 1s infinite;
 }
 
-.interactive-button:hover {
-    background-color: #303f9f;
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
 }

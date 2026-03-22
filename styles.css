@@ -1,59 +1,81 @@
-.portfolio {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    transition: transform 0.2s;
 }
 
-header {
-  background: linear-gradient(to right, #4A90E2, #9013FE);
-  color: white;
-  padding: 20px;
-  text-align: center;
+.card:hover {
+    transform: scale(1.05);
 }
 
-h1 {
-  font-size: 2.5em;
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
 }
 
-nav {
-  margin: 20px 0;
+.school-theme {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f9fbe7;
+    color: #3e2723;
 }
 
-nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s;
+.report-card {
+    border: 2px solid #3e2723;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
-nav a:hover {
-  color: #FFC107;
+.report-card h2 {
+    text-align: center;
+    color: #3e2723;
 }
 
-section {
-  padding: 20px;
-  background: #F5F5F5;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.report-card table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #333;
-  color: white;
+.report-card th, .report-card td {
+    border: 1px solid #3e2723;
+    padding: 8px;
+    text-align: center;
 }
 
-@media (max-width: 768px) {
-  .portfolio {
-    padding: 10px;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  nav a {
+@media (max-width: 600px) {
+    .card {
+        flex-direction: column;
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.animated {
+    animation: fadeIn 1s ease-in;
+}
+
+.interactive-button {
+    background-color: #3f51b5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
-    margin: 10px 0;
-  }
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.interactive-button:hover {
+    background-color: #303f9f;
 }

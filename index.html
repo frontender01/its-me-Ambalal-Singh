@@ -3,48 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive School-Themed Bio Website</title>
+    <title>Ambalal Singh - Interactive Bio</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1 id="animated-title">Welcome to My Bio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+    <!-- Animated Header -->
+    <header class="header-animated">
+        <h1 class="title-glow">🎓 Welcome to My School-Themed Bio</h1>
+        <nav class="nav-menu">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#certifications" class="nav-link">Certifications</a>
+            <a href="#contact" class="nav-link">Contact</a>
         </nav>
     </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>This is the section where I introduce myself.</p>
-        </section>
-        <section id="skills">
-            <h2>My Skills</h2>
-            <div class="skill-card float-card" data-skill="HTML">HTML</div>
-            <div class="skill-card float-card" data-skill="CSS">CSS</div>
-            <div class="skill-card float-card" data-skill="JavaScript">JavaScript</div>
-        </section>
-        <section id="certifications">
-            <h2>Certifications</h2>
-            <div class="certification-card report-card-style">
-                <h3>Certification 1</h3>
-                <p>Details about certification 1.</p>
+
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="section-card fade-in-element">
+            <h2 class="section-title">📚 About Me</h2>
+            <div class="about-content">
+                <p>Hi! I'm <strong>Ambalal Singh</strong>, a passionate web developer with expertise in HTML and CSS.</p>
+                <p>I love creating interactive, modern, and responsive websites that combine beauty with functionality.</p>
+                <p>My journey in web development has been exciting, and I'm always eager to learn new technologies!</p>
             </div>
-            <div class="certification-card report-card-style">
-                <h3>Certification 2</h3>
-                <p>Details about certification 2.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-card">
+            <h2 class="section-title">💻 My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card float-animation" data-skill="HTML">
+                    <span class="skill-icon">🌐</span>
+                    <p>HTML</p>
+                </div>
+                <div class="skill-card float-animation" data-skill="CSS">
+                    <span class="skill-icon">🎨</span>
+                    <p>CSS</p>
+                </div>
+                <div class="skill-card float-animation" data-skill="JavaScript">
+                    <span class="skill-icon">⚡</span>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card float-animation" data-skill="Responsive Design">
+                    <span class="skill-icon">📱</span>
+                    <p>Responsive Design</p>
+                </div>
+                <div class="skill-card float-animation" data-skill="UI/UX">
+                    <span class="skill-icon">🎯</span>
+                    <p>UI/UX Design</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Report Card Section (School Theme) -->
+        <section id="report-card" class="section-card school-report">
+            <h2 class="section-title">📊 Performance Report Card</h2>
+            <table class="report-table">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Grade</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-row-animation">
+                        <td>HTML & Markup</td>
+                        <td class="grade-a">A+</td>
+                        <td>⭐ Excellent</td>
+                    </tr>
+                    <tr class="table-row-animation">
+                        <td>CSS & Styling</td>
+                        <td class="grade-a">A+</td>
+                        <td>⭐ Excellent</td>
+                    </tr>
+                    <tr class="table-row-animation">
+                        <td>JavaScript</td>
+                        <td class="grade-b">B+</td>
+                        <td>✓ Good</td>
+                    </tr>
+                    <tr class="table-row-animation">
+                        <td>Responsive Design</td>
+                        <td class="grade-a">A</td>
+                        <td>✓ Very Good</td>
+                    </tr>
+                    <tr class="table-row-animation">
+                        <td>Web Animation</td>
+                        <td class="grade-a">A</td>
+                        <td>✓ Very Good</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section-card">
+            <h2 class="section-title">🏆 Certifications & Achievements</h2>
+            <div class="certifications-container">
+                <div class="cert-card flip-animation">
+                    <h3>Web Development Bootcamp</h3>
+                    <p>Comprehensive training in modern web development</p>
+                    <span class="cert-year">2025</span>
+                </div>
+                <div class="cert-card flip-animation">
+                    <h3>CSS Mastery Course</h3>
+                    <p>Advanced CSS animations and responsive design</p>
+                    <span class="cert-year">2025</span>
+                </div>
+                <div class="cert-card flip-animation">
+                    <h3>HTML5 Expert</h3>
+                    <p>Expert-level HTML5 semantic markup</p>
+                    <span class="cert-year">2024</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Elements Section -->
+        <section id="interactive" class="section-card">
+            <h2 class="section-title">🎮 Interactive Features</h2>
+            <div class="interactive-demo">
+                <button class="interactive-btn" onclick="showAlert()">Click Me!</button>
+                <p id="demo-text" class="demo-text"></p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-card contact-section">
+            <h2 class="section-title">📧 Get In Touch</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> ambalalsingh1@gmail.com</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/frontender01" target="_blank">@frontender01</a></p>
+                <p><strong>Location:</strong> India</p>
             </div>
         </section>
     </main>
-    <footer>
-        <p>Contact: <a href="mailto:example@example.com">example@example.com</a></p>
+
+    <footer class="footer-animated">
+        <p>&copy; 2026 Ambalal Singh | Interactive Bio Website</p>
+        <p class="scroll-hint">✨ Scroll to see more animations ✨</p>
     </footer>
 </body>
 </html>

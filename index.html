@@ -3,73 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: rgba(255, 255, 255, 0.1);
-            color: #fff;
-            backdrop-filter: blur(10px);
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            font-size: 3rem;
-        }
-        .skills, .tech-stack, .certifications {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 20px 0;
-        }
-        .skill, .badge, .cert {
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 10px;
-            padding: 10px;
-            margin: 10px;
-            transition: transform 0.2s;
-        }
-        .skill:hover, .badge:hover, .cert:hover {
-            transform: scale(1.05);
-        }
-    </style>
+    <title>Interactive School-Themed Bio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <h1>My Professional Portfolio</h1>
-        <h2>Skills</h2>
-        <div class="skills">
-            <div class="skill">Developer</div>
-            <div class="skill">Photo Editor</div>
-            <div class="skill">Video Editor</div>
-            <div class="skill">UI Designer</div>
-            <div class="skill">Data Analyst</div>
-            <div class="skill">Tester</div>
-            <div class="skill">Founder</div>
-        </div>
-        <h2>Tech Stack</h2>
-        <div class="tech-stack">
-            <div class="badge">HTML</div>
-            <div class="badge">CSS</div>
-            <div class="badge">JavaScript</div>
-            <div class="badge">React</div>
-            <div class="badge">Node.js</div>
-        </div>
-        <h2>Certifications</h2>
-        <div class="certifications">
-            <div class="cert">Certified Developer</div>
-            <div class="cert">Certified Data Analyst</div>
-        </div>
-        <h2>Figma Prototypes</h2>
-        <p><a href="#">View my designs on Figma</a></p>
-        <h2>GitHub Stats</h2>
-        <p><a href="#">GitHub Stats Link</a></p>
-    </div>
+    <header>
+        <h1 id="animated-title">Welcome to My Bio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This is the section where I introduce myself.</p>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skill-card float-card" data-skill="HTML">HTML</div>
+            <div class="skill-card float-card" data-skill="CSS">CSS</div>
+            <div class="skill-card float-card" data-skill="JavaScript">JavaScript</div>
+        </section>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="certification-card report-card-style">
+                <h3>Certification 1</h3>
+                <p>Details about certification 1.</p>
+            </div>
+            <div class="certification-card report-card-style">
+                <h3>Certification 2</h3>
+                <p>Details about certification 2.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact: <a href="mailto:example@example.com">example@example.com</a></p>
+    </footer>
 </body>
 </html>
